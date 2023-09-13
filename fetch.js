@@ -1,10 +1,7 @@
-// using fetch api for getting weather information
-
-const apiKey = "9f22d97df8ed6b96a7d6fa94570cb82b";
-const city = "Pune";
+// using fetch api to get the information
 
 fetch(
-  `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
+  `https://jsonplaceholder.typicode.com/users`
 )
   .then((response) => {
     return response.json();
