@@ -39,5 +39,5 @@ A JavaScript Promise object can be:
 ```
 .catch(function(error){
         //handle error
-    })
+})
 ```
